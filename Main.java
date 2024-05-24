@@ -1,4 +1,5 @@
-import java.util.*; 
+package LocalRepo;
+// import java.util.*; 
 public class Main{ 
     public static void main(String args[]){
         Student s1=new Student("Neha",11,"fgfg"); 
@@ -16,8 +17,8 @@ class Student{
     int roll_no;
   String passaword;  
     Student (Student s1){
-        this.name=name;
-         this.roll_no=roll_no;
+        // this.name=name;
+        //  this.roll_no=roll_no;
     }
      Student(String name,int roll_no,String passaword){  
          this.name=name;
